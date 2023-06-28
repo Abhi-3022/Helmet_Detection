@@ -2,13 +2,13 @@
 This project offers a Python implementation for helmet detection using deep learning techniques, utilizing the power of sklearn, numpy, pandas, matplotlib, TensorFlow, Keras, PIL (Python Imaging Library), and OpenCV libraries. The project provides an efficient solution for detecting whether individuals in images or videos are wearing helmets, making it useful for safety monitoring applications in various domains, such as construction sites or sports events.
 
 Key Features:
-- Deep Learning Architecture: The project implements a deep learning architecture, leveraging the TensorFlow and Keras libraries. The architecture is designed to perform object detection specifically for helmets, utilizing state-of-the-art convolutional neural networks (CNN) such as SSD (Single Shot MultiBox Detector) or Faster R-CNN (Region-based Convolutional Neural Networks).
-
+- Deep Learning Architecture: The project implements a deep learning architecture, leveraging the TensorFlow and Keras libraries. The architecture is designed to perform object detection specifically for helmets, utilizing state-of-the-art convolutional neural networks (CNN).
+  
 - Dataset Preparation: The project includes utilities for preparing the dataset required for training the helmet detection model. It provides functionalities to collect and annotate helmet images, handle data augmentation techniques, and split the dataset into training and validation sets to ensure accurate and robust model training.
 
 - Model Training: The implementation facilitates the training of the deep learning model on the annotated helmet dataset. It enables users to configure the model architecture, fine-tune hyperparameters, and perform iterative training to improve the model's accuracy and generalization capabilities.
 
-- Model Evaluation and Metrics: The project incorporates evaluation metrics such as precision, recall, F1-score, and mean Average Precision (mAP) to assess the performance of the helmet detection model. These metrics provide insights into the model's ability to accurately detect helmets and its overall effectiveness.
+- Model Evaluation and Metrics: The project incorporates evaluation metrics such as precision, recall and F1-score to assess the performance of the helmet detection model. These metrics provide insights into the model's ability to accurately detect helmets and its overall effectiveness.
 
 - Inference on Images and Videos: The project provides functionalities to apply the trained helmet detection model to images or videos, enabling real-time or batch processing of visual data. This allows users to detect helmets and visualize the results, either by drawing bounding boxes around detected helmets or by generating heatmaps to highlight helmet presence.
 
